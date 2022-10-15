@@ -5,3 +5,59 @@ body {
     font-family: Montserrat, sans-serif;
     letter-spacing: 0.04em;
 }
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.link {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+    @media screen and (min-width: 480px) {
+        width: 480px;
+    }
+
+    @media screen and (min-width: 768px) {
+        width: 768px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 1200px;
+    }
+}
