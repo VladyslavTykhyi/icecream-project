@@ -1,7 +1,7 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
 
 body {
-    color: $primery-text-color;
+    color: $primary-text-color;
     font-family: Montserrat, sans-serif;
     letter-spacing: 0.04em;
 }
@@ -56,16 +56,9 @@ img {
     }
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
+button {
+  cursor: pointer;
+  border: none;
   padding: 0;
-  white-space: nowrap;
-  -webkit-clip-path: inset(100%);
-          clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
+  font-family: inherit;
 }
