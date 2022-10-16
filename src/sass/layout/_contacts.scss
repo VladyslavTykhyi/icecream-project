@@ -1,0 +1,93 @@
+h1,
+h2,
+h3,
+p,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    -webkit-clip-path: inset(100%);
+            clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+.container {
+    
+    max-width: 480px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+
+.contacts {
+    position: relative;
+
+    color: #131313;
+    background-color: #84A178;
+
+
+}
+
+.contacts__locations {
+    position: absolute;
+    top: -345px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    @media screen and (min-width: 768px) {
+        top: -px;
+    }
+
+    @media screen and (min-width: 1200px) {
+
+    }
+}
+
+.contacts__card {
+    --indent: 20px;
+    --items: 1;
+    flex-basis: calc((100% - var(--indent) * var(--items)) / var(--items));
+    
+    @media screen and (min-width: 768px) {
+        --indent: 16px;
+        --items: 3;
+    }
+
+    @media screen and (min-width: 1200px) {
+        --indent: 32px;
+        
+    }
+}
