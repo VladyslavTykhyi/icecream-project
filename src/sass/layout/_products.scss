@@ -1,0 +1,182 @@
+.section {
+}
+
+.section-subtitle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.22;
+    text-transform: uppercase;
+
+    color: var(--text-color);
+
+    margin-bottom: 12px;
+
+    @media screen and (min-width: 768px) {
+        font-size: 22px;
+        line-height: 27px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        font-size: 30px;
+        line-height: 1.23;
+        letter-spacing: 0.04em;
+    }
+}
+
+.section-title {
+    font-size: 30px;
+    line-height: 1.26;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    color: var(--text-color);
+
+    margin-bottom: 40px;
+
+    @media screen and (min-width: 768px) {
+        font-size: 34px;
+        margin-bottom: 80px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        font-size: 36px;
+        line-height: 1.25;
+
+        letter-spacing: 0.06em;
+
+        margin-bottom: 120.11px;
+    }
+}
+
+.products__list {
+    @media screen and (min-width: 768px) {
+        display: flex;
+        gap: 16px;
+    }
+}
+
+.products__item {
+    // position: relative;
+    margin-bottom: 56px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 123px;
+    padding-bottom: 110px;
+    min-width: 280px;
+    height: 528px;
+
+
+    @media screen and (min-width: 768px) {
+        // margin-right: 16px;
+        margin-bottom: 0;
+        min-width: 224px;
+        height: 548px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        // min-width: 370.16px;
+        height: 718.68px;
+    }
+}
+
+.products__item--ice-cream {
+    background: #AEC6A5;
+    border-radius: 24px;
+
+    @media screen and (min-width: 768px) {
+        box-shadow: 0px 5.26027px 19.726px rgba(212, 20, 67, 0.1);
+        border-radius: 15.7808px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        border-radius: 24px;
+    }
+}
+
+.prosucts__item--ice-coffee {
+    background: #EFD478;
+    border-radius: 24px;
+
+    @media screen and (min-width: 768px) {
+        border-radius: 15.7808px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+        border-radius: 24px;
+    }
+}
+
+.products__item-milkshakes {
+    background: #D6936D;
+    border-radius: 24px;
+
+    @media screen and (min-width: 768px) {
+        border-radius: 15.7808px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        border-radius: 24px;
+    }
+}
+
+.products__title {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    color: var(--text-color);
+
+    margin-bottom: 40px;
+
+    @media screen and (min-width: 768px) {
+        font-size: 22px;
+        line-height: 1.22;
+    }
+
+    @media screen and (min-width: 1200px) {
+        font-size: 30px;
+        line-height: 1.23;
+        margin-bottom: 65.06px;
+    }
+}
+
+.products__text {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    line-height: 176%;
+
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color: var(--text-color);
+
+    @media screen and (min-width: 1200px) {
+        font-size: 16px;
+
+    }
+}
+
+.products__button {
+    // position: absolute;
+    bottom: 0;
+    // width: 100%;
+    display: block;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+
+    color: transparent;
+    background-color: transparent;
+    border: 0;
+}
+
+.products__icon {}
