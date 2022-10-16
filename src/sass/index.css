@@ -1,0 +1,52 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+body {
+  color: #FCFCFC;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 0.04em;
+}
+
+.button {
+  height: 42px;
+  border-radius: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #131313;
+  cursor: pointer;
+  background-color: #F8D24E;
+  border: none;
+}
+.button:hover {
+  background-color: rgb(10, 136, 23);
+}
+.button:focus {
+  background-color: rgb(10, 136, 23);
+  color: #FCFCFC;
+}
+.button:disabled {
+  background-color: #ABABAB;
+}
+
+.btn {
+  height: 42px;
+  border-radius: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #131313;
+  cursor: pointer;
+  background-color: rgb(132, 161, 120);
+  border: 2px solid rgb(248, 210, 78);
+}
+.btn:hover {
+  border: 2px solid rgb(10, 136, 23);
+}
+.btn:focus {
+  border: 2px solid rgb(10, 136, 23);
+  color: #FCFCFC;
+}
+.btn:disabled {
+  border: 2px solid rgb(171, 171, 171);
+}/*# sourceMappingURL=index.css.map */
