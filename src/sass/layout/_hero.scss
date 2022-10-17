@@ -1,5 +1,5 @@
 .hero {
-    padding-top: 60px;
+    padding-top: 110px;
 
     background-color: $bg-hero-color;
 
@@ -17,11 +17,11 @@
     }
 
     @include tablet {
-        padding-top: 36px;
+        padding-top: 105px;
     }
 
     @include desktop {
-        padding-top: 45px;
+        padding-top: 123px;
     }
 
     &__buttons {
