@@ -14,39 +14,55 @@ a {
 }
 
 .contacts {
-  // position: relative;
-  // height: 1100px;
   padding-bottom: 39px;
 
   color: $third-text-color;
-  background-color: $bg-hero-color;
+
+  background: linear-gradient(
+    to bottom,
+    transparent 345px,
+    $bg-hero-color 345px
+  );
 
   @media screen and (min-width: 768px) {
     padding-bottom: 40px;
+
+    background: linear-gradient(
+      to bottom,
+      transparent 304px,
+      $bg-hero-color 304px
+    );
   }
 
   @media screen and (min-width: 1200px) {
     padding-bottom: 120px;
+
+    background: linear-gradient(
+      to bottom,
+      transparent 96px,
+      $bg-hero-color 96px
+    );
   }
 }
 
 .contacts__locations {
-  // position: absolute;
-  // top: -346px;
-
   display: flex;
   flex-direction: column;
   gap: 20px;
 
+  margin-bottom: 32px;
+
   @media screen and (min-width: 768px) {
-    // top: -96px;
     flex-direction: row;
     gap: 16px;
-    // flex-wrap: wrap;
+
+    margin-bottom: 60px;
   }
 
   @media screen and (min-width: 1200px) {
     gap: 32px;
+
+    margin-bottom: 64px;
   }
 }
 
@@ -87,8 +103,7 @@ a {
 
 .contacts__category {
   display: inline-block;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 0 20px;
   margin-bottom: 20px;
 
   font-weight: 500;
@@ -102,8 +117,8 @@ a {
   border-radius: 4px;
 
   @media screen and (min-width: 768px) {
-    padding-left: 4px;
-    padding-right: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin-bottom: 32px;
   }
 }
@@ -155,4 +170,40 @@ a {
   @media screen and (min-width: 768px) {
     margin-bottom: 12;
   }
+}
+
+.contacts__info {
+  display: block;
+}
+
+.contacts__buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  align-items: center;
+
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.button--contacts {
+  display: flex;
+  align-items: center;
+
+  padding: 12px 30px;
+  border: transparent;
+}
+
+.btn--contacts {
+  display: flex;
+  align-items: center;
+
+  padding: 12px 48px;
+}
+
+.contacts__btn-icon {
+  margin-left: 6px;
 }
