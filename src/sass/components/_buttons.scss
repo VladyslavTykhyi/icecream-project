@@ -17,7 +17,7 @@
 
   &:focus {
     background-color: $btn-focus-color;
-    color: $primery-text-color;
+    color: $primary-text-color;
   }
 
   &:disabled {
@@ -44,7 +44,7 @@
 
   &:focus {
     border: 2px solid $btn-focus-color;
-    color: $primery-text-color;
+    color: $primary-text-color;
   }
 
   &:disabled {
