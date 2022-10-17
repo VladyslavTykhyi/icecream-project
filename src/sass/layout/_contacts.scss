@@ -51,9 +51,9 @@ a {
 }
 
 .contacts__card {
-  --indent: 20px;
-  --items: 1;
-  flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
+  $indent: 20px;
+  $items: 1;
+  flex-basis: calc((100% - $indent * ($items - 1)) / $items);
 
   padding: 40px 32px;
 
@@ -66,9 +66,9 @@ a {
   border-radius: 24px;
 
   @media screen and (min-width: 768px) {
-    --indent: 16px;
-    --items: 3;
-    min-width: 224px;
+    $indent: 16px;
+    $items: 3;
+
     padding: 40px 24px;
 
     font-weight: 500;
@@ -77,8 +77,8 @@ a {
   }
 
   @media screen and (min-width: 1200px) {
-    --indent: 32px;
-    --items: 3;
+    $indent: 32px;
+
     padding: 40px 40px;
 
     font-size: 16px;
@@ -110,7 +110,7 @@ a {
 
 .contacts__item:not(:last-child) {
   padding-bottom: 24px;
-
+  border-bottom: 1px solid #e1e1e1;
   @media screen and (min-width: 768px) {
     padding-bottom: 32px;
   }
@@ -122,10 +122,6 @@ a {
   @media screen and (min-width: 768px) {
     padding-top: 32px;
   }
-}
-
-.contacts__item:not(:last-child) {
-  border-bottom: 1px solid #e1e1e1;
 }
 
 .contacts__address {
