@@ -1,4 +1,4 @@
-<section class="contacts">
+<section class="contacts" id="contacts">
     <div class="container">
         <h2 class="visually-hidden">Our locations</h2>
         <ul class="contacts__locations">
@@ -8,20 +8,29 @@
                 </p>
                 <ul class="contacts__list">
                     <li class="contacts__item">
-                        <p class="city">
+                        <p class="contacts__city">
                             Chicago
                         </p>
-                        <address>
-                            10340 Ridgeland Ave, Chicago <br>Ridge, IL 60415, USA
+                        <address class="contacts__address">
+                            <a href="https://goo.gl/maps/dLgTAZeyw7zY2ANh9" rel="noopener noreferrer" aria-label="Address in Chicago">10340 Ridgeland Ave, Chicago <br>Ridge, IL 60415, USA</a>
                         </address> 
                     </li>
                     <li class="contacts__item">
-                        <p>Monday - Friday</p>
-                        <p>06:00 AM - 10:00 PM</p>
+                        <ul>
+                            <li class="contacts__opening-time">
+                                <p>Monday - Friday</p>
+                                <p class="contacts__hours">06:00 AM - 10:00 PM</p>
+                            </li>
+                            <li class="contacts__opening-time">
+                                <p>Saturday - Sunday</p>
+                                <p class="contacts__hours">08:00 AM - 16:00 PM</p>
+                            </li>
+                        </ul>
+                       
                     </li>
                     <li class="contacts__item">
-                        <a href="tel:+61(0)383766284">+61(0) 383 766 284 </a>
-                        <a href="mailto:noreply@envato.com">noreply@envato.com</a>
+                        <a href="tel:+61(0)383766284" aria-label="telephone">+61(0) 383 766 284 </a>
+                        <a href="mailto:noreply@envato.com" aria-label="email">noreply@envato.com</a>
                     </li>
                 </ul>
             </li>
@@ -31,20 +40,28 @@
                 </p>
                 <ul class="contacts__list">
                     <li class="contacts__item">
-                        <p class="city">
+                        <p class="contacts__city">
                             Los Angeles
                         </p>
-                        <address>
-                            1003 Manhattan Ave, Manhattan <br>Beach, CA 90263, USA
+                        <address class="contacts__address">
+                            <a href="https://goo.gl/maps/TKPjvZm8tF7NfVaw7" rel="noopener noreferrer" aria-label="Address in Los Angeles">1003 Manhattan Ave, Manhattan <br>Beach, CA 90263, USA</a>
                         </address> 
                     </li>
                     <li class="contacts__item">
-                        <p>Monday - Friday</p>
-                        <p>06:00 AM - 10:00 PM</p>
+                        <ul>
+                            <li class="contacts__opening-time">
+                                <p>Monday - Friday</p>
+                                <p class="contacts__hours">06:00 AM - 10:00 PM</p>
+                            </li>
+                            <li class="contacts__opening-time">
+                                <p>Saturday - Sunday</p>
+                                <p class="contacts__hours">08:00 AM - 16:00 PM</p>
+                            </li>
+                        </ul>
                     </li>
                     <li class="contacts__item">
-                        <a href="tel:+61(0)383766284">+61(0) 383 766 284 </a>
-                        <a href="mailto:noreply@envato.com">noreply@envato.com</a>
+                        <a href="tel:+61(0)383766284" aria-label="telephone">+61(0) 383 766 284 </a>
+                        <a href="mailto:noreply@envato.com" aria-label="email">noreply@envato.com</a>
                     </li>
                 </ul>                                
             </li>
@@ -54,26 +71,41 @@
                 </p>
                 <ul class="contacts__list">
                     <li class="contacts__item">
-                        <p class="city">
+                        <p class="contacts__city">
                             New York
                         </p>
-                        <address>
-                            726 Sterling Pl, Brooklyn, NY <br>11222, USA
+                        <address class="contacts__address">
+                            <a href="https://goo.gl/maps/vPSPVxvmP1MsREyi6" rel="noopener noreferrer" aria-label="Address in New York">726 Sterling Pl, Brooklyn, NY <br>11222, USA</a>
                         </address> 
                     </li>
                     <li class="contacts__item">
-                        <p>Monday - Friday</p>
-                        <p>06:00 AM - 10:00 PM</p>
+                        <ul>
+                            <li class="contacts__opening-time">
+                                <p>Monday - Friday</p>
+                                <p class="contacts__hours">06:00 AM - 10:00 PM</p>
+                            </li>
+                            <li class="contacts__opening-time">
+                                <p>Saturday - Sunday</p>
+                                <p class="contacts__hours">08:00 AM - 16:00 PM</p>
+                            </li>
+                        </ul>
                     </li>
                     <li class="contacts__item">
-                        <a href="tel:+61(0)383766284">+61(0) 383 766 284 </a>
-                        <a href="mailto:noreply@envato.com">noreply@envato.com</a>
+                        <a href="tel:+61(0)383766284" aria-label="telephone">+61(0) 383 766 284 </a>
+                        <a href="mailto:noreply@envato.com" aria-label="email">noreply@envato.com</a>
                     </li>
                 </ul>               
             </li>
         </ul>
-        <button>Our Locations</button>
-        <button>Franchise</button>
+        <ul>
+            <li>
+                <button class="" type="button" aria-label="open locations">Our Locations</button>
+            </li>
+            <li>
+                <button class="" type="button" aria-label="open locations">Franchise</button>
+            </li>
+        </ul>
+          
     </div>
     
 </section
