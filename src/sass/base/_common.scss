@@ -1,9 +1,13 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-    color: $primery-text-color;
-    font-family: Montserrat, sans-serif;
-    letter-spacing: 0.04em;
+  color: $primary-text-color;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 0.04em;
 }
 
 h1,
@@ -14,49 +18,50 @@ h5,
 h6,
 p,
 ul {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .link {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
+  cursor: url(../images/cursor.png), pointer;
 }
 
 img {
-    display: block;
-    width: 100%;
-    height: auto;
-    // margin-left: auto;
-    // margin-right: auto;
+  display: block;
+  width: 100%;
+  height: auto;
+  // margin-left: auto;
+  // margin-right: auto;
 }
 
 .container {
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 
-    @media screen and (min-width: 480px) {
-        width: 480px;
-    }
+  @media screen and (min-width: 480px) {
+    width: 480px;
+  }
 
-    @media screen and (min-width: 768px) {
-        width: 768px;
-        padding-left: 32px;
-        padding-right: 32px;
-    }
+  @media screen and (min-width: 768px) {
+    width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
 
-    @media screen and (min-width: 1200px) {
-        width: 1200px;
-        padding-left: 16px;
-        padding-right: 16px;
-    }
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 }
