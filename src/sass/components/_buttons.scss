@@ -1,4 +1,3 @@
-// кнопки, що мають непрозорий фон (переважна більшість)
 .button {
   padding: 12px 34px;
   margin: 0;
@@ -11,7 +10,7 @@
   cursor: url(../images/cursor.png), pointer;
   background-color: $acent-color;
   outline: none;
-  transition: color $animations, background-color $animations;
+  transition: color $animations, background-color $animations, color $animations;
 
   &:hover {
     background-color: $btn-focus-color;
@@ -20,13 +19,13 @@
   &:focus {
     background-color: $btn-focus-color;
     color: $bg-white-color;
-    // fill: $bg-white-color;
   }
 
   &:disabled {
     background-color: $disable-color;
   }
 }
+
 
 // кнопка ФРАНШИЗА, що має прозорий фон
 .btn {
