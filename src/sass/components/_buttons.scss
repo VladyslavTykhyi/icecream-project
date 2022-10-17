@@ -1,0 +1,53 @@
+.button {
+  height: 42px;
+  border-radius: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: $third-text-color;
+  cursor: pointer;
+  background-color: $acent-color;
+  border: 2px solid transparent;
+  transition: color $animations, background-color $animations;
+
+  &:hover {
+    background-color: $btn-focus-color;
+  }
+
+  &:focus {
+    background-color: $btn-focus-color;
+    color: $primery-text-color;
+  }
+
+  &:disabled {
+    background-color: $disable-color;
+  }
+}
+
+.btn {
+  height: 42px;
+  border-radius: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: $third-text-color;
+  cursor: pointer;
+  background-color: $bg-hero-color;
+  border: 2px solid $acent-color;
+  transition: color $animations, border-color $animations;
+
+  &:hover {
+    border: 2px solid $btn-focus-color;
+  }
+
+  &:focus {
+    border: 2px solid $btn-focus-color;
+    color: $primery-text-color;
+  }
+
+  &:disabled {
+    border: 2px solid $disable-color;
+  }
+}
