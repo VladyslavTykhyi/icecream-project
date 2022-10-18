@@ -19,6 +19,7 @@
   &:focus {
     background-color: $btn-focus-color;
     color: $bg-white-color;
+
   }
 
   &:disabled {
@@ -100,8 +101,10 @@
   }
 
   &:focus {
+
     border-color: $btn-focus-color;
     color: $bg-white-color;
+
   }
 
   &:disabled {
