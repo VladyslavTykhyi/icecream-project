@@ -5,7 +5,6 @@ html {
 }
 
 body {
-
   color: $primery-text-color;
   font-family: Montserrat, sans-serif;
   letter-spacing: 0.04em;
@@ -39,7 +38,9 @@ ul {
 .link {
   text-decoration: none;
   color: inherit;
+
   cursor: url(../images/cursor.png), pointer;
+
 }
 
 img {
