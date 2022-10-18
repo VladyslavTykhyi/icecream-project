@@ -83,7 +83,7 @@
 
     &__link {
         padding-block: 15px;
-
+        cursor: url(../images/cursor.png), pointer;
         text-decoration: underline;
         font-weight: 600;
         font-size: 8px;
@@ -224,6 +224,7 @@
         display: flex;
         align-items: baseline;
         transition: padding-bottom 200ms linear;
+        cursor: url(../images/cursor.png), pointer;
 
         &:hover {
             padding-bottom: 11px;
@@ -321,6 +322,7 @@
         font-size: 14px;
         font-weight: 600;
         color: $secondary-text-color;
+        cursor: url(../images/cursor.png), pointer;
             
 
     @media (max-width: 1199.5px) {
