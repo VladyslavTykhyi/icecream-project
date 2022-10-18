@@ -1,7 +1,19 @@
 .about {
-    padding-top: 60px;
+    padding-top: 60px;    
     background-color: $bg-hero-color;
     color: $bg-white-color;    
+    @media screen and (min-width: 480px) {
+        padding-bottom: 42px;        
+    }
+
+    @media screen and (min-width: 768px) {
+        padding-bottom: 48px;        
+    }
+
+    @media screen and (min-width: 1200px) {
+        padding-bottom: 60px;        
+    }
+    
 }
 
 .about__text {
@@ -237,7 +249,7 @@
   }
 
   &:focus {
-    color: $primary-text-color;
+    color: $acent-color;
     background-color: $btn-focus-color;
   }
 
