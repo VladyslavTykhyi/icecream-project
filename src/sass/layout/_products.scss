@@ -1,4 +1,5 @@
 .products{
+    padding-top: 60px;
     padding-bottom: 60px;
 
     @media screen and (min-width: 768px){
@@ -33,6 +34,7 @@
 }
 
 .products__title{
+    
     margin-bottom: 148px;
     font-size: 30px;
     line-height: 1.26;
@@ -75,15 +77,18 @@
             border-radius: 24px; 
             min-height: 420px;
             margin-bottom: 164px;
+            max-width: 280px;
+            margin-left: auto;
+            margin-right: auto;
             
             @media screen and (min-width: 768px){
-                width: 224px;
+                max-width: 224px;
                 height: 428px;
                 margin-bottom: 0;
             }
 
             @media screen and (min-width: 1200px){
-                width: 370.16px;
+                max-width: 370.16px;
                 min-height: 535.51px;
             }
     }
@@ -93,17 +98,19 @@
         background: $yellow-card-color;
         border-radius: 24px;
         margin-bottom: 164px;
-
+        max-width: 280px;
         min-height: 420px;
+        margin-left: auto;
+            margin-right: auto;
         
             @media screen and (min-width: 768px) {
-                width: 224px;
+                max-width: 224px;
                 height: 428px;
                 margin-bottom: 0;
             }
         
             @media screen and (min-width: 1200px) {
-                width: 370.16px;
+                max-width: 370.16px;
                 min-height: 535.51px;
             }
     }
@@ -114,15 +121,18 @@
         border-radius: 24px;
         min-height: 420px;
         margin-bottom: 60px;
+                max-width: 280px;
+                margin-left: auto;
+                    margin-right: auto;
         
             @media screen and (min-width: 768px) {
-                width: 224px;
+                max-width: 224px;
                 height: 428px;
                 margin-bottom: 0;
             }
         
             @media screen and (min-width: 1200px) {
-                width: 370.16px;
+                max-width: 370.16px;
                 min-height: 535.51px;
             }
     }
@@ -162,6 +172,14 @@
 .products__icon{
     width: 40px;
     height: 24px;
+        transition-duration: 255ms;
+    &:hover{
+        width: 50px;
+    }
+
+    &:focus{
+        width: 60px;
+    }
 }
 
 .item__description{
@@ -262,3 +280,5 @@ position: absolute;
                     margin: 0 44%;
         }
 }
+
+
