@@ -12,43 +12,35 @@
 
     @media screen and (min-width: 1200px) {
         padding-bottom: 60px;        
-    }
-    
+    }    
 }
 
 .about__text {
-    margin-bottom: 12px;
-
-    @media screen and (min-width: 1200px) {
-        letter-spacing: 0.04em;
-    }
-}
-
-.text-label {
+    margin-bottom: 12px;    
     font-weight: 700;
-    font-size: 1.8rem;
-    line-height: 1.23;
+    font-size: 18px;
+    line-height: calc(22 / 18);
     text-align: center;
     text-transform: uppercase;
 
     @media screen and (min-width: 768px) {
-        // font-weight: 800;
-        // font-size: 22px;
-        // line-height: calc(27 / 22);
-        // text-align: center;
-        // text-transform: uppercase;
-        // letter-spacing: 0.04em;
-        font-size: 2.2rem;
+        font-weight: 800;
+        font-size: 22px;
+        line-height: calc(27 / 22);
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        // font-size: 2.2rem;
     }
 
     @media screen and (min-width: 1200px) {
-        // font-weight: 800;
-        // font-size: 30px;
-        // line-height: calc(37 / 30);
-        // text-align: center;
-        // text-transform: uppercase;
-        // letter-spacing: 0.04em;
-        font-size: 3rem;
+        font-weight: 800;
+        font-size: 30px;
+        line-height: calc(36.57 / 30);
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        // font-size: 3rem;
     }
 }
 
