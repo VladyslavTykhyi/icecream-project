@@ -1,6 +1,7 @@
 @import './base/vars';
 @import './base/common';
 @import './base/visually-hidden';
+@import './base/mixins';
 @import './components/buttons';
 @import './layout/header';
 @import './layout/hero';
@@ -13,5 +14,7 @@
 @import './layout/footer';
 @import './layout/modals';
 @import './layout/modal__location';
+@import './layout/franchise-modal';
+
 
 
