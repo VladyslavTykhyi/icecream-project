@@ -21,7 +21,7 @@
     }
 
     @include desktop {
-        padding-top: 123px;
+        padding-top: 113px;
     }
 
     &__buttons {
@@ -110,7 +110,7 @@
     &__img {
         position: absolute;
         bottom: 0;
-        right: 77px;
+      left: 87px;
 
         width: 49%;
         max-width: 157px;
@@ -118,12 +118,12 @@
         filter: drop-shadow(0 0 30px rgba(252, 252, 252, 0.44)) drop-shadow(0 0 20px rgba(252, 252, 252, 0.44));
 
         @include tablet {
-            right: 80px;
+            left: 405px;
             max-width: 270px;
         }
 
         @include desktop {
-            right: 102px;
+            left: 653px;
             max-width: 447px;
         }
     }
@@ -131,7 +131,7 @@
     &__dots {
         position: absolute;
         bottom: 0;
-        right: 0;
+        left: 0;
 
         max-height: 50px;
         width: 100%;
