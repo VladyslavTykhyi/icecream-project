@@ -4,17 +4,18 @@
   |============================
 */
 .reviews {
-  margin-top: 80px;
-  margin-bottom: 48px;
+  margin: 80 auto 48px auto;
+
+  // Tablet styles
+  @media screen and (min-width: 768px) {
+    margin-top: 60px;
+    margin-bottom: 80px;
+  }
 
   //   Desktop styles
   @media screen and (min-width: 1200px) {
-    max-width: 968px;
-
-    margin-left: auto;
-    margin-right: auto;
-
-    overflow: hidden;
+    margin-bottom: 100px;
+    margin-top: 128px;
   }
 }
 
@@ -42,9 +43,23 @@
   margin: 0 auto 32px auto;
   height: 85px;
   max-width: 85px;
+
+  // Tablet only styles
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    margin-bottom: 28px;
+  }
 }
 .reviews__appraisal {
   margin: 0 20px 30px 20px;
+
+  @media screen and (max-width: 767px) {
+    height: 256px;
+    margin: 0 20px;
+  }
+
+  @media screen and (min-width: 768px) {
+    height: 138px;
+  }
 }
 .reviews__text {
   padding: 34px 39px;
@@ -79,17 +94,20 @@
   |============================
 */
 
-.slider {
-  display: flex;
-  justify-content: center;
-  gap: 18px;
+// .slider {
+//   display: flex;
+//   justify-content: center;
+//   gap: 18px;
 
-  margin-top: 32px;
-}
+//   margin-top: 32px;
+// }
 
-
-.active {
-  width: 14px;
-  height: 14px;
-  background-color: #84a178;
+// .active {
+//   width: 14px;
+//   height: 14px;
+//   background-color: #84a178;
+// }
+.slick-slide-contro00 {
+  width: 12px;
+  height: 12px;
 }
