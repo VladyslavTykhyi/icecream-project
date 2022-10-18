@@ -39,7 +39,7 @@
     margin-bottom: 148px;
     font-size: 30px;
     line-height: 1.26;
-
+    font-family: Seymour One, sans-serif;
     text-align: center;
     text-transform: uppercase;
 
@@ -147,7 +147,7 @@
 
     .item__title{
         padding-top: 123px;
-
+        
             font-weight: 700;
             font-size: 20px;
             line-height: 1.2;
@@ -264,7 +264,7 @@ position: absolute;
 }
 
 .item__button{
-    cursor: pointer;
+    // cursor: url(../images/cursor.png), pointer;
     border: none;
     background-color: transparent;
     margin: 0 42%;
