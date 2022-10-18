@@ -1,12 +1,12 @@
-<div class="backdrop" data-modal="more">
-    <div class="modal">
-      <button class="close-button" type="button" data-modal-close>
-        <svg class="about__button--arrow" width="20" height="20">
-          <use href="./images/sprite.svg#modal-close-btn"></use> 
-        </svg>
-      </button>
-      <h2 class="modal__title">How it’s made?</h2>
-      <div class="move-contein"> 
+<div class="backdrop is-hidden" data-modal="more" name="modal-video-overlay">
+  <div class="modal" name="modal-video-modal">
+    <button class="close-button" type="button" name="modal-video-close">
+      <svg class="about__button--arrow" width="20" height="20">
+        <use href="./images/sprite.svg#modal-close-btn"></use>
+      </svg>
+    </button>
+    <h2 class="modal__title">How it’s made?</h2>
+    <div class="move-contein">
       <iframe
         class="about__video"
         src="https://www.youtube.com/embed/hO-7cz7gyAY"
@@ -15,13 +15,12 @@
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       >
-      </iframe> 
+      </iframe>
     </div>
-      <p class="about__video-descr">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et Lorem ipsum dolor sit amet, consectetur
-        adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-      </p>
-    </div>
+    <p class="about__video-descr">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+    </p>
   </div>
-  
+</div>
