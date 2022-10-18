@@ -4,12 +4,12 @@
       <img
         class="logo__icon"
         srcset="
-          ./images/logo/1-60.png    60w,
-          ./images/logo/1-60@2x.png 60w,
-          ./images/logo/2-48.png    48w,
-          ./images/logo/2-48@2x.png 48w,
-          ./images/logo/3-41.png    41w,
-          ./images/logo/2-48@2x.png 41w
+          ./images/logo/1-60.png     60w,
+          ./images/logo/1-60@2x.png 120w,
+          ./images/logo/2-48.png     48w,
+          ./images/logo/2-48@2x.png  96w,
+          ./images/logo/3-41.png     41w,
+          ./images/logo/2-48@2x.png  81w
         "
         sizes="(min-width: 1200px) 60px, (min-width: 768px) 48px, (max-width: 767px) 41px, 100vw"
         src="./images/logo/3-41.png"
@@ -52,7 +52,12 @@
     </button>
     <!-- end button mobile and tablet menu -->
 
-    <button type="button" class="button header__btn" aria-label="buy now">
+    <button
+      type="button"
+      class="button header__btn js-open-modal"
+      aria-label="buy now"
+      name="buy-now-open"
+    >
       Buy now
       <svg class="btn__arrow-icon" width="12" height="12">
         <use href="../src/images/sprite.svg#btn-arrow"></use>
@@ -78,7 +83,7 @@
         </li>
         <li class="main-nav__item-mobile">
           <a
-            href="https://github.com/Lukyianenko/team-dream-project/blob/main/src/index.html/#about"
+            href="https://github.com/Lukyianenko/team-dream-project/#about"
             class="main-nav__link-mobile link"
             aria-label="about"
             >How it’s made?</a
@@ -105,9 +110,8 @@
       <button
         type="button"
         class="button header__btn-mobile"
-        data-buy-mobile-open=""
-        data-nav-link=""
         aria-label="buy now"
+        name="buy-now-menu-open"
       >
         Buy now
         <svg class="btn__arrow-icon" width="12" height="12">

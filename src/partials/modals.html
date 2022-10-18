@@ -1,0 +1,306 @@
+<div class="backdrop is-hidden backdrop--buynow" name="buy-now-overlay">
+  <div class="modal" name="buy-now-modal">
+    <div class="modal__wrap">
+      <button class="modal-btn" type="button" name="buy-now-close">
+        <svg class="modal__close-icon" width="20" height="20">
+          <use href="./images/sprite.svg#modal-close-btn"></use>
+        </svg>
+      </button>
+
+      <form class="modal-form" name="buy-now-form">
+        <p class="modal-form__title">Buy now</p>
+        <ul class="buy-now-modal-form__list">
+          <li class="buy-now-modal-form__item">
+            <label
+              class="buy-now-modal-product buy-now-modal-product-ice-cream"
+            >
+              <input
+                class="buy-now-modal-product__checkbox buy-now-modal-product__checkbox-ice-cream visually-hidden"
+                type="checkbox"
+                name="checkbox"
+              />
+
+              <span
+                class="buy-now-modal-card__thumb buy-now-modal-card__thumb-ice-cream"
+              >
+                <span
+                  class="buy-now-modal-card__fon buy-now-modal-card__fon-ice-cream"
+                ></span>
+                <img
+                  class="buy-now-modal-card__img"
+                  srcset="
+                    ./images/modal_buy_now/1_bn@1x.jpg 1x,
+                    ./images/modal_buy_now/1_bn@2x.jpg 2x
+                  "
+                  src="./images/modal_buy_now/1_bn@1x.jpg"
+                  alt="ice cream"
+                  width="132"
+                  height="138"
+                />
+
+                <span class="buy-now-modal-card__text">ice cream</span>
+              </span>
+            </label>
+          </li>
+
+          <li class="buy-now-modal-form__item">
+            <label class="buy-now-modal-product">
+              <input
+                class="buy-now-modal-product__checkbox buy-now-modal-product__checkbox-ice-coffee visually-hidden"
+                type="checkbox"
+                name="checkbox"
+              />
+
+              <span
+                class="buy-now-modal-card__thumb buy-now-modal-card__thumb-ice-coffee"
+              >
+                <span
+                  class="buy-now-modal-card__fon buy-now-modal-card__fon-ice-coffee"
+                ></span>
+                <img
+                  class="buy-now-modal-card__img"
+                  srcset="
+                    ./images/modal_buy_now/2_bn@1x.jpg 1x,
+                    ./images/modal_buy_now/2_bn@2x.jpg 2x
+                  "
+                  src="./images/modal_buy_now/2_bn@1x.jpg"
+                  alt="ice coffee"
+                  width="132"
+                  height="138"
+                />
+
+                <span class="buy-now-modal-card__text">ice coffee</span>
+              </span>
+            </label>
+          </li>
+
+          <li class="buy-now-modal-form__item">
+            <label class="buy-now-modal-product">
+              <input
+                class="buy-now-modal-product__checkbox buy-now-modal-product__checkbox-milkshake visually-hidden"
+                type="checkbox"
+                name="checkbox"
+              />
+
+              <span
+                class="buy-now-modal-card__thumb buy-now-modal-card__thumb-milkshake"
+              >
+                <span
+                  class="buy-now-modal-card__fon buy-now-modal-card__fon-milkshake"
+                ></span>
+                <img
+                  class="buy-now-modal-card__img"
+                  srcset="
+                    ./images/modal_buy_now/3_bn@1x.jpg 1x,
+                    ./images/modal_buy_now/3_bn@2x.jpg 2x
+                  "
+                  src="./images/modal_buy_now/3_bn@1x.jpg"
+                  alt="milkshake"
+                  width="132"
+                  height="138"
+                />
+
+                <span class="buy-now-modal-card__text">milkshake</span>
+              </span>
+            </label>
+          </li>
+        </ul>
+        <div class="register-form-group">
+          <label class="register-form-field">
+            <input
+              class="register-form-field__input"
+              type="text"
+              name="name"
+              required
+              pattern="^[a-zA-Z]+\s[a-zA-Z]+$"
+              title="Username must be two words separated by space."
+              placeholder=" "
+            />
+
+            <span class="register-form-field__label">Name</span>
+          </label>
+          <label class="register-form-field">
+            <input
+              class="register-form-field__input"
+              type="tel"
+              name="phone-number"
+              required
+              pattern="\s{0,}\+{1,1}38\([0-9]{3}\)[0-9]{3}-[0-9]{2}-[0-9]{2}"
+              title="Enter a phone number +38(011)111-22-22"
+              placeholder=" "
+            />
+
+            <span class="register-form-field__label">Phone</span>
+          </label>
+          <label class="register-form-field">
+            <textarea
+              class="register-form-field__message"
+              name="message"
+              rows="4"
+              placeholder="Comment"
+            ></textarea>
+          </label>
+        </div>
+        <button class="button register-form__button" type="submit">
+          Submit
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="backdrop is-hidden backdrop--buynow" name="buy-now-menu-overlay">
+  <div class="modal" name="buy-now-menu-modal">
+    <div class="modal__wrap">
+      <button class="modal-btn" type="button" name="buy-now-menu-close">
+        <svg
+          class="modal__close-icon"
+          width="20"
+          height="20"
+          data-buy-desktop-close=""
+        >
+          <use href="./images/sprite.svg#modal-close-btn"></use>
+        </svg>
+      </button>
+
+      <form class="modal-form" name="buy-now-form">
+        <p class="modal-form__title">Buy now</p>
+        <ul class="buy-now-modal-form__list">
+          <li class="buy-now-modal-form__item">
+            <label
+              class="buy-now-modal-product buy-now-modal-product-ice-cream"
+            >
+              <input
+                class="buy-now-modal-product__checkbox buy-now-modal-product__checkbox-ice-cream visually-hidden"
+                type="checkbox"
+                name="checkbox"
+              />
+
+              <span
+                class="buy-now-modal-card__thumb buy-now-modal-card__thumb-ice-cream"
+              >
+                <span
+                  class="buy-now-modal-card__fon buy-now-modal-card__fon-ice-cream"
+                ></span>
+                <img
+                  class="buy-now-modal-card__img"
+                  srcset="
+                    ./images/modal_buy_now/1_bn@1x.jpg 1x,
+                    ./images/modal_buy_now/1_bn@2x.jpg 2x
+                  "
+                  src="./images/modal_buy_now/1_bn@1x.jpg"
+                  alt="ice cream"
+                  width="132"
+                  height="138"
+                />
+
+                <p class="buy-now-modal-card__text">ice cream</p>
+              </span>
+            </label>
+          </li>
+
+          <li class="buy-now-modal-form__item">
+            <label class="buy-now-modal-product">
+              <input
+                class="buy-now-modal-product__checkbox buy-now-modal-product__checkbox-ice-coffee visually-hidden"
+                type="checkbox"
+                name="checkbox"
+              />
+
+              <div
+                class="buy-now-modal-card__thumb buy-now-modal-card__thumb-ice-coffee"
+              >
+                <div
+                  class="buy-now-modal-card__fon buy-now-modal-card__fon-ice-coffee"
+                ></div>
+                <img
+                  class="buy-now-modal-card__img"
+                  srcset="
+                    ./images/modal_buy_now/2_bn@1x.jpg 1x,
+                    ./images/modal_buy_now/2_bn@2x.jpg 2x
+                  "
+                  src="./images/modal_buy_now/2_bn@1x.jpg"
+                  alt="ice coffee"
+                  width="132"
+                  height="138"
+                />
+
+                <p class="buy-now-modal-card__text">ice coffee</p>
+              </div>
+            </label>
+          </li>
+
+          <li class="buy-now-modal-form__item">
+            <label class="buy-now-modal-product">
+              <input
+                class="buy-now-modal-product__checkbox buy-now-modal-product__checkbox-milkshake visually-hidden"
+                type="checkbox"
+                name="checkbox"
+              />
+
+              <div
+                class="buy-now-modal-card__thumb buy-now-modal-card__thumb-milkshake"
+              >
+                <div
+                  class="buy-now-modal-card__fon buy-now-modal-card__fon-milkshake"
+                ></div>
+                <img
+                  class="buy-now-modal-card__img"
+                  srcset="
+                    ./images/modal_buy_now/3_bn@1x.jpg 1x,
+                    ./images/modal_buy_now/3_bn@2x.jpg 2x
+                  "
+                  src="./images/modal_buy_now/3_bn@1x.jpg"
+                  alt="milkshake"
+                  width="132"
+                  height="138"
+                />
+
+                <p class="buy-now-modal-card__text">milkshake</p>
+              </div>
+            </label>
+          </li>
+        </ul>
+        <div class="register-form-group">
+          <label class="register-form-field">
+            <input
+              class="register-form-field__input"
+              type="text"
+              name="name"
+              required
+              pattern="^[a-zA-Z]+\s[a-zA-Z]+$"
+              title="Username must be two words separated by space."
+              placeholder=" "
+            />
+
+            <span class="register-form-field__label">Name</span>
+          </label>
+          <label class="register-form-field">
+            <input
+              class="register-form-field__input"
+              type="tel"
+              name="phone-number"
+              required
+              pattern="\s{0,}\+{1,1}38\([0-9]{3}\)[0-9]{3}-[0-9]{2}-[0-9]{2}"
+              title="Enter a phone number +38(011)111-22-22"
+              placeholder=" "
+            />
+
+            <span class="register-form-field__label">Phone</span>
+          </label>
+          <label class="register-form-field">
+            <textarea
+              class="register-form-field__message"
+              name="message"
+              rows="4"
+              placeholder="Comment"
+            ></textarea>
+          </label>
+        </div>
+        <button class="button register-form__button" type="submit">
+          Submit
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
