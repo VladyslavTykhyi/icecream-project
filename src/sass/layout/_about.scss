@@ -1,22 +1,23 @@
 .about {
-    padding-top: 60px;    
+    padding-top: 60px;
     background-color: $bg-hero-color;
-    color: $bg-white-color;    
+    color: $primary-text-color;
+
     @media screen and (min-width: 480px) {
-        padding-bottom: 42px;        
+        padding-bottom: 42px;
     }
 
     @media screen and (min-width: 768px) {
-        padding-bottom: 48px;        
+        padding-bottom: 48px;
     }
 
     @media screen and (min-width: 1200px) {
-        padding-bottom: 60px;        
-    }    
+        padding-bottom: 60px;
+    }
 }
 
 .about__text {
-    margin-bottom: 12px;    
+    margin-bottom: 12px;
     font-weight: 700;
     font-size: 18px;
     line-height: calc(22 / 18);
@@ -27,9 +28,9 @@
         font-weight: 800;
         font-size: 22px;
         line-height: calc(27 / 22);
-        text-align: center;
-        text-transform: uppercase;
         letter-spacing: 0.04em;
+        // text-align: center;
+        // text-transform: uppercase;        
         // font-size: 2.2rem;
     }
 
@@ -37,9 +38,9 @@
         font-weight: 800;
         font-size: 30px;
         line-height: calc(36.57 / 30);
-        text-align: center;
-        text-transform: uppercase;
         letter-spacing: 0.04em;
+        // text-align: center;
+        // text-transform: uppercase;        
         // font-size: 3rem;
     }
 }
@@ -47,14 +48,13 @@
 .about__title {
     max-width: 200px;
     margin: 0 auto;
-    margin-bottom: 35px;
-    color: $bg-white-color;
+    margin-bottom: 33.02px;
+    color: $primary-text-color;
     font-family: "Seymour One", sans-serif;
-    font-size: 3rem;
-
-    // font-weight: 400;
-    // font-size: 30px;
-    line-height: calc(38 / 30);    
+    // font-size: 3rem;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: calc(38 / 30);
     letter-spacing: 0.04em;
     text-align: center;
     text-transform: uppercase;
@@ -62,23 +62,22 @@
     @media screen and (min-width: 768px) {
         max-width: 100%;
         margin-bottom: 72px;
-        letter-spacing: 0.06em;	
-        font-size: 3.4rem;
-        // font-weight: 400;
-        // font-size: 34px;
-        // line-height: calc(43 / 34);
-        // letter-spacing: 0.06em;
-        // text-transform: uppercase;
+        font-weight: 400;
+        font-size: 34px;
+        line-height: calc(43 / 34);
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        // font-size: 3.4rem;
     }
 
     @media screen and (min-width: 1200px) {
-        margin-bottom: 84px;
-        font-size: 3.6rem;
-        // font-weight: 400;
-        // font-size: 36px;
-        // line-height: calc(45 / 36);
-        // letter-spacing: 0.06em;
-        // text-transform: uppercase;
+        margin-bottom: 82px;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: calc(45 / 36);
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        // font-size: 3.6rem;
     }
 }
 
@@ -231,27 +230,26 @@
 }
 
 .btn--primary {
-  background-color: $acent-color;
+    background-color: $acent-color;
 
-  transition: color $animations,
-              background-color $animations;
+    transition: color $animations,
+        background-color $animations;
 
-  &:hover {
-    background-color: $btn-focus-color;
-  }
+    &:hover {
+        background-color: $btn-focus-color;
+    }
 
-  &:focus {
-    color: $acent-color;
-    background-color: $btn-focus-color;
-  }
+    &:focus {
+        color: $acent-color;
+        background-color: $btn-focus-color;
+    }
 
-  &:disabled {
-    background-color: $disable-color;
-  }
+    &:disabled {
+        background-color: $disable-color;
+    }
 
-  svg {
-    fill: currentColor;
-    pointer-events: none;
-  }
+    svg {
+        fill: currentColor;
+        pointer-events: none;
+    }
 }
-
