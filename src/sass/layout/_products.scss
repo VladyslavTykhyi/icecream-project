@@ -1,227 +1,266 @@
-.section {
-    max-width: 1600px;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-right: auto;
-    margin-left: auto;
-    background-size: cover;
-    background-image:
-         linear-gradient(rgba(47, 48, 58, 0.4),
-             rgba(47, 48, 58, 0.4)),
-        url("../images/bg/_tel-@1x.jpg");
 
-    @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
-    (min-resolution: 192dpi) and (max-width: 767px),
-    (min-resolution: 2dppx) and (max-width: 767px) {
-        background-image:
-            url(../images/bg/_tel-@2x.jpg);
+.products{
+    padding-bottom: 60px;
+
+    @media screen and (min-width: 768px){
+        padding-bottom: 82px;
     }
 
-    @media screen and (min-width: 768px) {
-        background-image:
-            url(../images/bg/_tab-@1x.jpg);
-    }
-
-    @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi) and (min-width: 768px),
-    (min-resolution: 2dppx) and (min-width: 768px) {
-        background-image:
-            url(../images/bg/_tab-@2x.jpg);
-    }
-
-    @media screen and (min-width: 1200px) {
-        min-height: 600px;
-        padding-top: 200px;
-        padding-bottom: 200px;
-        background-image:
-            url(../images/bg/_desc-@1x.jpg);
-    }
-
-    @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi) and (min-width: 1200px),
-    (min-resolution: 2dppx) and (min-width: 1200px) {
-        background-image:
-            url(../images/bg/_desc-@2x.jpg);
-    }
+        @media screen and (min-width: 1200px) {
+            padding-bottom: 66px;
+        }
 }
-
-
-.section-subtitle {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 800;
-    text-align: center;
-    font-size: 18px;
-    line-height: 1.22;
-    text-transform: uppercase;
-
-    color: var(--text-color);
-
+.products__uppertitle{
     margin-bottom: 12px;
 
-    @media screen and (min-width: 768px) {
-        font-size: 22px;
-        line-height: 27px;
-    }
-
-    @media screen and (min-width: 1200px) {
+    font-weight: 800;
         font-size: 30px;
         line-height: 1.23;
-        letter-spacing: 0.04em;
-    }
+        text-align: center;
+        text-transform: uppercase;
+    
+        color: $third-text-color;
+
+        @media screen and (min-width: 768px){
+                    font-size: 22px;
+                line-height: 1.22;
+                text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+
+        @media screen and (min-width: 1200px){
+            font-size: 30px;
+            line-height: 1.23;
+        }
 }
 
-.section-title {
+.products__title{
+    margin-bottom: 148px;
     font-size: 30px;
     line-height: 1.26;
+
     text-align: center;
-    letter-spacing: 0.04em;
     text-transform: uppercase;
 
-    color: var(--text-color);
+        color: $third-text-color;
 
-    margin-bottom: 40px;
+        @media screen and (min-width: 768px){
+            font-size: 34px;
+            margin-bottom: 200px;
+        }
 
-    @media screen and (min-width: 768px) {
-        font-size: 34px;
-        margin-bottom: 80px;
+        @media screen and (min-width:1200px){
+            font-size: 36px;
+            line-height: 1.25;
+            
+            letter-spacing: 0.06em;
+
+            margin-bottom: 303px;
+        }
     }
 
-    @media screen and (min-width: 1200px) {
-        font-size: 36px;
-        line-height: 1.25;
+    .products__list{
 
-        letter-spacing: 0.06em;
+        @media screen and (min-width: 768px){
+            display: flex;
+            gap: 16px;
+        }
 
-        margin-bottom: 120.11px;
-    }
-}
-
-.products__list {
-    @media screen and (min-width: 768px) {
-        display: flex;
-        gap: 16px;
-    }
-}
-
-.products__item {
-    // position: relative;
-    margin-bottom: 56px;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 123px;
-    padding-bottom: 110px;
-    min-width: 280px;
-    height: 528px;
-
-
-    @media screen and (min-width: 768px) {
-        // margin-right: 16px;
-        margin-bottom: 0;
-        min-width: 224px;
-        height: 548px;
+        @media screen and (min-width:1200px){
+            gap: 32px;
+        }
     }
 
-    @media screen and (min-width: 1200px) {
-        // min-width: 370.16px;
-        height: 718.68px;
+    .products__item--ice-cream{
+        position: relative;
+        background: $bg-salad-color ;
+            border-radius: 24px; 
+            min-height: 420px;
+            margin-bottom: 164px;
+            
+            @media screen and (min-width: 768px){
+                width: 224px;
+                height: 428px;
+                margin-bottom: 0;
+            }
+
+            @media screen and (min-width: 1200px){
+                width: 370.16px;
+                min-height: 535.51px;
+            }
     }
-}
 
-.products__item--ice-cream {
-    background: #AEC6A5;
-    border-radius: 24px;
-
-    @media screen and (min-width: 768px) {
-        box-shadow: 0px 5.26027px 19.726px rgba(212, 20, 67, 0.1);
-        border-radius: 15.7808px;
-    }
-
-    @media screen and (min-width: 1200px) {
+    .products__item--ice-coffee{
+                position: relative;
+        background: $yellow-card-color;
         border-radius: 24px;
+        margin-bottom: 164px;
+
+        min-height: 420px;
+        
+            @media screen and (min-width: 768px) {
+                width: 224px;
+                height: 428px;
+                margin-bottom: 0;
+            }
+        
+            @media screen and (min-width: 1200px) {
+                width: 370.16px;
+                min-height: 535.51px;
+            }
     }
-}
 
-.prosucts__item--ice-coffee {
-    background: #EFD478;
-    border-radius: 24px;
-
-    @media screen and (min-width: 768px) {
-        border-radius: 15.7808px;
-    }
-
-    @media screen and (min-width: 1200px) {
-        box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+    .products__item--milkshakes{
+                position: relative;
+        background: $orange-card-color;
         border-radius: 24px;
+        min-height: 420px;
+        margin-bottom: 60px;
+        
+            @media screen and (min-width: 768px) {
+                width: 224px;
+                height: 428px;
+                margin-bottom: 0;
+            }
+        
+            @media screen and (min-width: 1200px) {
+                width: 370.16px;
+                min-height: 535.51px;
+            }
+    }
+
+    .products__img{
+        margin-top: -10px;
+        // width: 201px;
+        // height: 200px;
+        border-radius: 150%;
+    }
+
+    .item__title{
+        padding-top: 123px;
+
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 1.2;
+            text-align: center;
+            text-transform: uppercase;
+        
+        color: $third-text-color;    
+    
+        @media screen and (min-width: 768px){
+            padding-top: 108px;
+            font-size: 22px;
+                line-height: 1.22;
+        }
+
+        @media screen and (min-width: 1200px) {
+            padding-top: 166px;
+                font-size: 30px;
+                line-height: 1.23;
     }
 }
 
-.products__item-milkshakes {
-    background: #D6936D;
-    border-radius: 24px;
 
-    @media screen and (min-width: 768px) {
-        border-radius: 15.7808px;
-    }
-
-    @media screen and (min-width: 1200px) {
-        border-radius: 24px;
-    }
+.products__icon{
+    width: 40px;
+    height: 24px;
 }
 
-.products__title {
-    font-family: 'Montserrat';
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 1.2;
-    text-align: center;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
+.item__description{
+    padding: 40 40 0;
 
-    color: var(--text-color);
-
-    margin-bottom: 40px;
-
-    @media screen and (min-width: 768px) {
-        font-size: 22px;
-        line-height: 1.22;
-    }
-
-    @media screen and (min-width: 1200px) {
-        font-size: 30px;
-        line-height: 1.23;
-        margin-bottom: 65.06px;
-    }
-}
-
-.products__text {
-    font-family: 'Montserrat';
     font-size: 14px;
     line-height: 176%;
-
+    
     text-align: center;
-    letter-spacing: 0.04em;
+    
+    color: $third-text-color;
 
-    color: var(--text-color);
+    @media screen and (min-width:768px){
+     padding: 40 26 0;
+    }
 
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1200px){
         font-size: 16px;
-
+        padding: 62 65 0;
     }
 }
 
-.products__button {
-    // position: absolute;
-    bottom: 0;
-    // width: 100%;
-    display: block;
-    cursor: pointer;
-    margin-left: auto;
-    margin-right: auto;
 
-    color: transparent;
-    background-color: transparent;
-    border: 0;
+.item__wrapper--ice-cream{
+    position: absolute;
+    width: 201px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+    top: -100px;
+    left: 0;
+    right: 0;
+    background: linear-gradient(0deg, rgba(156, 190, 143, 0.7), rgba(156, 190, 143, 0.7)), #D9D9D9;
+        box-shadow: 0px 5.34219px 20.0332px rgba(10, 136, 23, 0.25);
+    
+
+
+    @media screen and (min-width: 1200px){
+        width: 302px;
+        height: 310px;
+        top: -170px;
+    }
 }
 
-.products__icon {}
+.item__wrapper--ice-coffee{
+position: absolute;
+    width: 201px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+    top: -100px;
+    left: 0;
+    right: 0;
+    background: linear-gradient(0deg, rgba(248, 210, 78, 0.7), rgba(248, 210, 78, 0.7)), #D9D9D9;
+        box-shadow: 0px 5.40397px 20.2649px rgba(153, 114, 23, 0.25);
+
+    @media screen and (min-width: 1200px) {
+            width: 302px;
+            height: 310px;
+                top: -170px;
+        }
+}
+
+.item__wrapper--milkshakes{
+position: absolute;
+    width: 201px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+    top: -100px;
+    left: 0;
+        right: 0;
+        background: linear-gradient(0deg, rgba(213, 117, 63, 0.7), rgba(213, 117, 63, 0.7)), #D9D9D9;
+            box-shadow: 0px 5.41333px 20.3px rgba(0, 0, 0, 0.25);   
+
+    @media screen and (min-width: 1200px) {
+            width: 302px;
+            height: 310px;
+            top: -170px;
+        }
+}
+
+.item__button{
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    margin: 0 42%;
+    top: 380px;
+    position: absolute;
+
+    @media screen and (min-width: 768px){
+        margin: 0 39%;
+        top: 400px;
+    }
+
+        @media screen and (min-width: 1200px) {
+                    top: 480px; 
+                    margin: 0 44%;
+        }
+}
+
