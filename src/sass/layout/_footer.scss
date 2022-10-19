@@ -105,7 +105,7 @@
     border-radius: 50%;
     background-color: $acent-color;
     border: none;
-  
+    transition: background-color $animations;
     @include tablet {
       height: 34px;
       width: 34px;
@@ -124,6 +124,8 @@
     height: 18px;
   
     fill: $bg-hero-color;
+
+    transition: fill $animations;
      }
 
 
