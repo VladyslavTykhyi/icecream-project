@@ -1,7 +1,7 @@
-const modalBNM = document.querySelector('[name="buy-now-menu-modal"]');
-const overlayBNM = document.querySelector('[name="buy-now-menu-overlay"]');
-const openModalBtnBNM = document.querySelector('[name="buy-now-menu-open"]');
-const closeModalBtnBNM = document.querySelector('[name="buy-now-menu-close"]');
+const modalBNM = document.querySelector('[data-buy-now-menu-modal]');
+const overlayBNM = document.querySelector('[data-buy-now-menu-overlay]');
+const openModalBtnBNM = document.querySelector('[data-buy-now-menu-open]');
+const closeModalBtnBNM = document.querySelector('[data-buy-now-menu-close]');
 
 const openModalBNM = function () {
   modalBNM.classList.remove('is-hidden');

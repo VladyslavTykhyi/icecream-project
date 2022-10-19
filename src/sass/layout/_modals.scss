@@ -262,7 +262,7 @@
 
 .register-form-field__input {
   width: 100%;
-  min-height: 42px;
+  min-height: 32px;
   padding-left: 75px;
   padding-right: 10px;
   color: $third-text-color;
@@ -279,6 +279,9 @@
 
   &:invalid:not(:placeholder-shown) {
     border-color: red;
+  }
+  @media screen and (min-width: 768px) {
+    min-height: 42px;
   }
 }
 

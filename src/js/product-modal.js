@@ -1,7 +1,7 @@
-const modalPM = document.querySelector('[name="product-modal"]');
-const overlayPM = document.querySelector('[name="product-overlay"]');
-const openModalBtnPM = document.querySelector('[name="product-open"]');
-const closeModalBtnPM = document.querySelector('[name="product-close"]');
+const modalPM = document.querySelector('[data-buy-product-modal]');
+const overlayPM = document.querySelector('[data-buy-product-overlay]');
+const openModalBtnPM = document.querySelector('[data-buy-product-open]');
+const closeModalBtnPM = document.querySelector('[data-buy-product-close]');
 
 const openModalPM = function () {
   modalPM.classList.remove('is-hidden');

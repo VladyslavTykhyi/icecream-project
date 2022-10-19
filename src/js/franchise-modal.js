@@ -1,9 +1,7 @@
-const modalFM = document.querySelector('[name="franchise-modal-modal"]');
-const overlayFM = document.querySelector('[name="franchise-modal-overlay"]');
-const openModalBtnFM = document.querySelector('[name="franchise-modal-open"]');
-const closeModalBtnFM = document.querySelector(
-  '[name="franchise-modal-close"]'
-);
+const modalFM = document.querySelector('[data-buy-franchise-modal]');
+const overlayFM = document.querySelector('[data-buy-franchise-overlay]');
+const openModalBtnFM = document.querySelector('[data-buy-franchise-open]');
+const closeModalBtnFM = document.querySelector('[data-buy-franchise-close]');
 
 const openModalFM = function () {
   modalFM.classList.remove('is-hidden');
