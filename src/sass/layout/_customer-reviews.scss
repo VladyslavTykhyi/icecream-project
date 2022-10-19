@@ -4,18 +4,18 @@
   |============================
 */
 .reviews {
-  margin: 186px auto 48px auto;
+  padding: 186px 0 48px;
 
   // Tablet styles
   @media screen and (min-width: 768px) {
-    margin-top: 223px;
-    margin-bottom: 80px;
+    padding-top: 223px;
+    padding-bottom: 80px;
   }
 
   //   Desktop styles
   @media screen and (min-width: 1200px) {
-    margin-bottom: 100px;
-    margin-top: 456px;
+    padding-bottom: 100px;
+    padding-top: 456px;
   }
 }
 
