@@ -1,7 +1,7 @@
-<div class="backdrop is-hidden backdrop--buynow" name="buy-now-overlay">
-  <div class="modal" name="buy-now-modal">
+<div class="backdrop is-hidden backdrop--buynow" data-buy-now-overlay>
+  <div class="modal" data-buy-now-modal>
     <div class="modal__wrap">
-      <button class="modal-btn" type="button" name="buy-now-close">
+      <button class="modal-btn" type="button" data-buy-now-close>
         <svg class="modal__close-icon" width="20" height="20">
           <use href="./images/sprite.svg#modal-close-btn"></use>
         </svg>
@@ -11,21 +11,19 @@
         <p class="modal-form__title">Buy now</p>
         <ul class="buy-now-modal-form__list">
           <li class="buy-now-modal-form__item">
-            <label
-              class="buy-now-modal-product buy-now-modal-product-ice-cream"
-            >
+            <div class="buy-now-modal-product buy-now-modal-product-ice-cream">
               <input
                 class="buy-now-modal-product__checkbox buy-now-modal-product__checkbox-ice-cream visually-hidden"
                 type="checkbox"
                 name="checkbox"
               />
 
-              <span
+              <div
                 class="buy-now-modal-card__thumb buy-now-modal-card__thumb-ice-cream"
               >
-                <span
+                <div
                   class="buy-now-modal-card__fon buy-now-modal-card__fon-ice-cream"
-                ></span>
+                ></div>
                 <img
                   class="buy-now-modal-card__img"
                   srcset="
@@ -39,24 +37,24 @@
                 />
 
                 <span class="buy-now-modal-card__text">ice cream</span>
-              </span>
-            </label>
+              </div>
+            </div>
           </li>
 
           <li class="buy-now-modal-form__item">
-            <label class="buy-now-modal-product">
+            <div class="buy-now-modal-product">
               <input
                 class="buy-now-modal-product__checkbox buy-now-modal-product__checkbox-ice-coffee visually-hidden"
                 type="checkbox"
                 name="checkbox"
               />
 
-              <span
+              <div
                 class="buy-now-modal-card__thumb buy-now-modal-card__thumb-ice-coffee"
               >
-                <span
+                <div
                   class="buy-now-modal-card__fon buy-now-modal-card__fon-ice-coffee"
-                ></span>
+                ></div>
                 <img
                   class="buy-now-modal-card__img"
                   srcset="
@@ -70,24 +68,24 @@
                 />
 
                 <span class="buy-now-modal-card__text">ice coffee</span>
-              </span>
-            </label>
+              </div>
+            </div>
           </li>
 
           <li class="buy-now-modal-form__item">
-            <label class="buy-now-modal-product">
+            <div class="buy-now-modal-product">
               <input
                 class="buy-now-modal-product__checkbox buy-now-modal-product__checkbox-milkshake visually-hidden"
                 type="checkbox"
                 name="checkbox"
               />
 
-              <span
+              <div
                 class="buy-now-modal-card__thumb buy-now-modal-card__thumb-milkshake"
               >
-                <span
+                <div
                   class="buy-now-modal-card__fon buy-now-modal-card__fon-milkshake"
-                ></span>
+                ></div>
                 <img
                   class="buy-now-modal-card__img"
                   srcset="
@@ -101,8 +99,8 @@
                 />
 
                 <span class="buy-now-modal-card__text">milkshake</span>
-              </span>
-            </label>
+              </div>
+            </div>
           </li>
         </ul>
         <div class="register-form-group">
@@ -116,7 +114,6 @@
               title="Username must be two words separated by space."
               placeholder=" "
             />
-
             <span class="register-form-field__label">Name</span>
           </label>
           <label class="register-form-field">
@@ -149,10 +146,10 @@
   </div>
 </div>
 
-<div class="backdrop is-hidden backdrop--buynow" name="buy-now-menu-overlay">
-  <div class="modal" name="buy-now-menu-modal">
+<div class="backdrop is-hidden backdrop--buynow" data-buy-now-menu-overlay>
+  <div class="modal" data-buy-now-menu-modal>
     <div class="modal__wrap">
-      <button class="modal-btn" type="button" name="buy-now-menu-close">
+      <button class="modal-btn" type="button" data-buy-now-menu-close>
         <svg
           class="modal__close-icon"
           width="20"
@@ -167,21 +164,19 @@
         <p class="modal-form__title">Buy now</p>
         <ul class="buy-now-modal-form__list">
           <li class="buy-now-modal-form__item">
-            <label
-              class="buy-now-modal-product buy-now-modal-product-ice-cream"
-            >
+            <div class="buy-now-modal-product buy-now-modal-product-ice-cream">
               <input
                 class="buy-now-modal-product__checkbox buy-now-modal-product__checkbox-ice-cream visually-hidden"
                 type="checkbox"
                 name="checkbox"
               />
 
-              <span
+              <div
                 class="buy-now-modal-card__thumb buy-now-modal-card__thumb-ice-cream"
               >
-                <span
+                <div
                   class="buy-now-modal-card__fon buy-now-modal-card__fon-ice-cream"
-                ></span>
+                ></div>
                 <img
                   class="buy-now-modal-card__img"
                   srcset="
@@ -194,13 +189,13 @@
                   height="138"
                 />
 
-                <p class="buy-now-modal-card__text">ice cream</p>
-              </span>
-            </label>
+                <span class="buy-now-modal-card__text">ice cream</span>
+              </div>
+            </div>
           </li>
 
           <li class="buy-now-modal-form__item">
-            <label class="buy-now-modal-product">
+            <div class="buy-now-modal-product">
               <input
                 class="buy-now-modal-product__checkbox buy-now-modal-product__checkbox-ice-coffee visually-hidden"
                 type="checkbox"
@@ -227,11 +222,11 @@
 
                 <p class="buy-now-modal-card__text">ice coffee</p>
               </div>
-            </label>
+            </div>
           </li>
 
           <li class="buy-now-modal-form__item">
-            <label class="buy-now-modal-product">
+            <div class="buy-now-modal-product">
               <input
                 class="buy-now-modal-product__checkbox buy-now-modal-product__checkbox-milkshake visually-hidden"
                 type="checkbox"
@@ -258,7 +253,7 @@
 
                 <p class="buy-now-modal-card__text">milkshake</p>
               </div>
-            </label>
+            </div>
           </li>
         </ul>
         <div class="register-form-group">

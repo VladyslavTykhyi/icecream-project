@@ -1,7 +1,7 @@
-const modalLM = document.querySelector('[name="location-modal-modal"]');
-const overlayLM = document.querySelector('[name="location-modal-overlay"]');
-const openModalBtnLM = document.querySelector('[name="location-modal-open"]');
-const closeModalBtnLM = document.querySelector('[name="location-modal-close"]');
+const modalLM = document.querySelector('[data-buy-location-modal]');
+const overlayLM = document.querySelector('[data-buy-location-overlay]');
+const openModalBtnLM = document.querySelector('[data-buy-location-open]');
+const closeModalBtnLM = document.querySelector('[data-buy-location-close]');
 
 const openModalLM = function () {
   modalLM.classList.remove('is-hidden');

@@ -1,7 +1,7 @@
-const modalMV = document.querySelector('[name="modal-video-modal"]');
-const overlayMV = document.querySelector('[name="modal-video-overlay"]');
-const openModalBtnMV = document.querySelector('[name="modal-video-open"]');
-const closeModalBtnMV = document.querySelector('[name="modal-video-close"]');
+const modalMV = document.querySelector('[data-buy-modal-video-modal]');
+const overlayMV = document.querySelector('[data-buy-modal-video-overlay]');
+const openModalBtnMV = document.querySelector('[data-buy-modal-video-open]');
+const closeModalBtnMV = document.querySelector('[data-buy-modal-video-close]');
 
 const openModalMV = function () {
   modalMV.classList.remove('is-hidden');
