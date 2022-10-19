@@ -1,7 +1,7 @@
 .footer {
     position: relative;
     background: $bg-hero-color;
-     
+    padding-bottom: 63px;
     &__link {
       display: flex;
       justify-content: center;
@@ -10,9 +10,6 @@
   }
   
   .footer__base {
-    @media screen and (max-width: 767px) {
-        max-width: 300px;
-    }
     @include tablet {
       display: flex;
     }
@@ -20,15 +17,7 @@
       align-items: baseline;
     }
   }
-  .footer__upptitle {
-    width: 280px;
-    @include tablet {
-      width: 352px;
-    }
-    @include desktop {
-      width: 100%;
-    }
-  }
+
   .footer__upptitle-text {
     font-weight: 400;
     font-size: 18px;
@@ -43,6 +32,13 @@
     @include desktop {
       font-size: 30px;
       line-height: 37px;
+    }
+    width: 280px;
+    @include tablet {
+      width: 352px;
+    }
+    @include desktop {
+      width: 100%;
     }
   }
   
@@ -75,6 +71,9 @@
     }
   }
   .footer__second {
+@media screen and (max-width: 767px) {
+  margin-bottom: 40px;
+}
     @include tablet {
       margin-left: auto;
       margin-top: 40px;
@@ -83,7 +82,6 @@
   
   .footer__list {
     display: flex;
-    margin-top: 42px;
     gap: 27px;
     justify-content: right;
   
@@ -137,7 +135,7 @@
   .footer__undertitle {
     text-align: right;
     margin-top: 38px;
-    margin-bottom: 40px;
+
     font-weight: 700;
     font-size: 12px;
     line-height: 186%;
@@ -172,7 +170,7 @@
     width: 200px;
   
     margin-top: 16px;
-    padding-bottom: 63px;
+ 
   
     font-weight: 700;
     font-size: 14px;
@@ -185,4 +183,8 @@
       margin-top: 14px;
       padding-bottom: 13px;
     }
+  }
+
+  .fade-right {
+    margin-bottom: 42px;
   }
