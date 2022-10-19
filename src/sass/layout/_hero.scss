@@ -29,8 +29,6 @@
         gap: 18px;
         align-items: baseline;
 
-        margin-bottom: 20px;
-
         @include tablet {
             margin-bottom: 28px;
         }
@@ -340,4 +338,15 @@
 .adaptive-btn:focus {
     color: #fcfcfc;
     border-color: #0a8817;
+}
+
+
+
+.hero__dots, .hero__img {
+    @media screen and (max-width: 767px) {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }
