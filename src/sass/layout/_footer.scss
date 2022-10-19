@@ -1,6 +1,12 @@
 .footer {
     position: relative;
     background: $bg-hero-color;
+    @media screen and (max-width: 767px) {
+      padding-bottom: 63px;
+    }
+    @media screen and (min-width: 768px) {
+      padding-bottom: 13px;
+    }
     padding-bottom: 63px;
     &__link {
       display: flex;
@@ -45,7 +51,7 @@
   .footer__title {
     width: 200px;
     margin-top: 16px;
-  
+    
     font-weight: 700;
     font-size: 34px;
     line-height: calc(41 / 34);
@@ -181,8 +187,7 @@
     @include tablet {
       width: 100%;
       margin-top: 14px;
-      padding-bottom: 13px;
-    }
+      }
   }
 
   .fade-right {
