@@ -1,12 +1,15 @@
 .modal__franhise {
+  position: absolute;
   width: 280px;
-  height: 674px;
-  // position: absolute;
-  // top: 50%;
-  // left: 50%;
+  height: 722px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   padding: 28px;
 
-  border: 2px solid $acent-color;
+  border: 2px solid $acent-color; 
   border-radius: 10px;
 
   @media screen and (min-width: 768px) {
@@ -14,10 +17,11 @@
     height: 668px;
   }
 }
-.modal__franсhise-title {
+.modal__franchise-title {
   font-family: 'Seymour One';
+  font-weight: 400;
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 1.5;
 
   display: flex;
   align-items: center;
@@ -31,8 +35,11 @@
     margin-bottom: 24px;
   }
 }
-.modal__text {
-  font-size: 16px;
+
+
+
+.modald__text {
+  font-size: 14px;
   line-height: 140%;
 
   color: $third-text-color;
@@ -43,22 +50,44 @@
     margin-bottom: 32px;
   }
 }
-.form__field {
+
+.close-franch {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  color: $secondary-text-color;
+}
+
+.modald__close-icon {
+  fill: currentColor;
+}
+
+.form__field, .form__field-commend {
   margin-bottom: 12px;
   display: flex;
   flex-direction: column;
   position: relative;
+  max-width: 220px;
 
   @media screen and (min-width: 768px) {
     margin-bottom: 16px;
   }
 }
+.form {
+  text-align: center;
+}
 .form__input {
-  height: 32px;
+  display: inline-block;
+   height: 32px;  
   cursor: pointer;
   position: relative;
   padding-left: 12px;
   outline: transparent;
+  margin-left: auto;
+  margin-right: auto;
+
 
   background: rgba(248, 210, 78, 0.1);
   border: 1px solid $bg-hero-color;
@@ -75,6 +104,13 @@
     
   }
   
+}
+
+.form__input-com {
+  background: rgba(248, 210, 78, 0.1);
+  border: 1px solid $bg-hero-color;
+  border-radius: 10px;
+
 }
 .form__input::placeholder{
     font-size: 12px;
@@ -93,6 +129,10 @@
 textarea{
     resize: none;
     height: 64px;
+
+    @media screen and (max-width: 767px) {
+      max-width: 220px;
+    }
     width: 368px;
     padding-top: 8px;
     padding-left: 12px;
@@ -131,4 +171,10 @@ textarea{
         margin-bottom: 32px;
         
     }
+}
+
+.sub {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
 }

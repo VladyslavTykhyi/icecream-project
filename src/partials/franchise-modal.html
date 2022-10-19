@@ -1,10 +1,11 @@
-<div class="backdrop is-hidden" name="franchise-modal-overlay">
+<div class="backdropd is-hidden" name="franchise-modal-overlay">
   <div class="modal__franhise" name="franchise-modal-modal">
-    <svg class="modal__close-icon" width="16" height="16" name="franchise-modal-close">
-      <use href="/src/images/sprite.svg#modal-close-btn"></use>
-    </svg>
+    <button class="close-franch"><svg class="modald__close-icon" width="16" height="16" name="franchise-modal-close">
+      <use href="/src/images/sprite.svg#modal-close-btn"></use> 
+    </svg></button>   
+    
     <h3 class="modal__franchise-title">Thank you for your interest in owning an Ice Cream shop</h3>
-    <p class="modal__text">
+    <p class="modald__text">
       Due to the overwhelming volume of franchise requests we are not accepting
       new franchisee applications at this time. Once the application process
       resumes, we will contact you for further information. Please fill out the
@@ -14,7 +15,7 @@
     <form class="form js-speaker-form">
         <div class="form__field">
             <label for="name" class="form__label"></label>
-            <input type="text" name="name" id="name" class="form__input" required placeholder="Name" pattern="[a-z]{1,15}">
+            <input type="text" name="name" id="name" class="form__input" required placeholder="Name" pattern="[a-z]{1,15}"> 
              </div>
         <div class="form__field">
             <label for="tel" class="form__label"></label>
@@ -23,17 +24,18 @@
         <div class="form__field">
             <label for="email" class="form__label"></label>
             <input type="email" name="email" id="email" class="form__input" required placeholder="Email" pattern="[a-z]{1,15}">
-             </div>
+             </div>   
         <div class="form__field-commend">
-            <label for="commend" class="form__label"></label>
+            <label for="commend" class="form__label"></label>    
             <textarea
               name="commend"
               id="commend"
               placeholder="Comment"
+              class="form__input-com"
             ></textarea>
            </div>
         <div class="form__btn">
-            <button type="submit" class="button ">Submit</button>
+            <button type="submit" class="button sub">Submit</button>
           </div>
-     </div>
+     </div>  
 </div>
