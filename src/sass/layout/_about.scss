@@ -90,6 +90,9 @@
 .content__container {
   max-width: 335px;
 
+  @media screen and (max-width: 767px) {
+    margin-bottom: 40px;
+  }
   @media screen and (min-width: 480px) {
     max-width: 335px;
   }
@@ -111,9 +114,7 @@
   border-radius: 1038.58px;
   width: 100%;
 
-  @media screen and (max-width: 767px) {
-    margin-bottom: 40px;
-  }
+
 
   @media screen and (min-width: 768px) {
     box-shadow: 0 -25.88px $acent-color;

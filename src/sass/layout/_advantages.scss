@@ -31,19 +31,14 @@
 }
 .grid__item {
   width: 230px;
-  margin-bottom: 25px;
-
-  &:last-child {
-    margin-bottom: 0;
-  }
 
   @media screen and(min-width:768px) {
     width: 152px;
-    margin-bottom: 0;
   }
+  
   @media screen and(min-width:1200px) {
     width: 368px;
-    margin-bottom: 0;
+
   }
 }
 
