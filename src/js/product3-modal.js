@@ -15,7 +15,7 @@ const closeModalPM3 = function () {
   overlayPM3.classList.add('is-hidden');
 };
 
-closeModalBtnPM3.addEventListener('click', closeModalPM2, { passive: true });
+closeModalBtnPM3.addEventListener('click', closeModalPM3, { passive: true });
 
 document.addEventListener(
   'keydown',
