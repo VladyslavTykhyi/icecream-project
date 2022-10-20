@@ -21,8 +21,6 @@
   mobileListLinks.addEventListener('click', onMobileListLinksClick);
 
   function onMobileListLinksClick(event) {
-    event.preventDefault();
-    console.dir(event.target.nodeName);
     if (event.target.nodeName !== 'A') {
       return;
     }
