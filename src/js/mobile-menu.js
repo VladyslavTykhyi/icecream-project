@@ -2,6 +2,7 @@
   const mobileMenu = document.querySelector('.js-menu-container');
   const openMenuBtn = document.querySelector('.js-open-menu');
   const closeMenuBtn = document.querySelector('.js-close-menu');
+  const mobileListLinks = document.querySelector('.main-nav__list-mobile');
 
   const toggleMenu = () => {
     const isMenuOpen =
@@ -17,7 +18,16 @@
 
   openMenuBtn.addEventListener('click', toggleMenu);
   closeMenuBtn.addEventListener('click', toggleMenu);
+  mobileListLinks.addEventListener('click', onMobileListLinksClick);
 
+  function onMobileListLinksClick(event) {
+    event.preventDefault();
+    console.dir(event.target.nodeName);
+    if (event.target.nodeName !== 'A') {
+      return;
+    }
+    toggleMenu();
+  }
   // Close the mobile menu on wider screens if the device orientation changes
   window.matchMedia('(min-width: 1200px)').addEventListener('change', e => {
     if (!e.matches) return;
