@@ -1,11 +1,11 @@
 {
-  "name": "team-dream-project",
+  "name": "icecream-project",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://Lukyianenko.github.io/team-dream-project",
+  "homepage": "https://VladyslavTykhyi.github.io/icecream-project",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /team-dream-project/"
+    "build": "parcel build src/*.html --public-url /icecream-project/"
   },
   "repository": {
     "type": "git",
@@ -15,7 +15,7 @@
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Lukyianenko/team-dream-project/issues"
+    "url": "https://github.com/VladyslavTykhyi/icecream-project"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"
